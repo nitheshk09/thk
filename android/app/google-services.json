@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "922903610446",
+    "project_id": "thinkcyber-519a1",
+    "storage_bucket": "thinkcyber-519a1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922903610446:android:a2cb44cbc599b0af352f1f",
+        "android_client_info": {
+          "package_name": "com.edu.thinkcyber"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBjLzS2l6tuFnECS9vSPyssEsZJPdDoVg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

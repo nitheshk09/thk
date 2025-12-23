@@ -1,0 +1,30 @@
+<svg width="320" height="280" viewBox="0 0 320 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1F3C88" />
+      <stop offset="100%" stop-color="#4F46E5" />
+    </linearGradient>
+    <linearGradient id="shieldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60A5FA" />
+      <stop offset="100%" stop-color="#22D3EE" />
+    </linearGradient>
+    <linearGradient id="lockGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F4F4F5" />
+      <stop offset="100%" stop-color="#E0E7FF" />
+    </linearGradient>
+  </defs>
+  <rect width="320" height="280" rx="32" fill="url(#bgGradient)" />
+  <path d="M40 210 C70 160 250 160 280 210" fill="none" stroke="#312E81" stroke-width="4" stroke-linecap="round" />
+  <g transform="translate(80 60)">
+    <path d="M80 0 L158 35 V88 C158 132 125 176 80 192 C35 176 2 132 2 88 V35 Z" fill="url(#shieldGradient)" />
+    <path d="M80 20 L135 44 V84 C135 118 108 151 80 163 C52 151 25 118 25 84 V44 Z" fill="#1E3A8A" opacity="0.55" />
+    <g transform="translate(55 58)">
+      <rect x="0" y="35" width="50" height="46" rx="10" fill="url(#lockGradient)" />
+      <rect x="18" y="18" width="14" height="24" rx="7" fill="#E0F2FE" stroke="#1D4ED8" stroke-width="4" />
+      <circle cx="25" cy="64" r="6" fill="#1D4ED8" />
+    </g>
+  </g>
+  <circle cx="60" cy="70" r="8" fill="#60A5FA" opacity="0.5" />
+  <circle cx="260" cy="60" r="12" fill="#22D3EE" opacity="0.35" />
+  <circle cx="90" cy="30" r="6" fill="#C4B5FD" opacity="0.65" />
+</svg>
